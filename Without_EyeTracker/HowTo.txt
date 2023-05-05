@@ -1,0 +1,10 @@
+1. Install the provided Tobii Eye Tracking Core Software v2.16 (Tobii_Eye_Tracking_Core_v2.16.4.67_x86.exe - tobii drivers)
+
+2. Unzip the provided consumer_stream_engine_windows_2.2.2.3002.zip file and copy this folder to e.g. c/Libraries and 
+   rename it into c/Libraries/Tobii
+
+3. Only if you use another folder than c/Libraries/Tobii, adapt the VC++ directories via project properties:
+   -> include directories
+   -> Library directories
+
+More info on: http://developer.tobiipro.com/c.html
